@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 @Service
 @Profile({"default", "simple"})
 //@Profile("simple")
-public class SimpleMessageServiceService implements IMessageService {
+public class SimpleMessageService implements IMessageService {
     @Override
     public String getMessage() {
         return "Simple Message";
